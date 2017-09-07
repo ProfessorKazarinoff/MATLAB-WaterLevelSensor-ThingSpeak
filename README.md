@@ -26,7 +26,7 @@ As shown in the pictures below, the circuit that connects the breadboard, the Ar
 ## MATLAB Code
 The [MATLAB_code.m](MATLAB_code.m) script was run in MATLAB. Ensure the ```COM Port``` is set correctly. If errors are returned after running the script a number of times try ```fclose(a); clear(a); delete(a)``` on the MATLAB command line.
 
-In the MATLAB code, the ThingSpeak.com Channel Number ``` thingspeak_channel``` and ThingSpeak.com Write API key ```write_API_key``` need to be defined. Fill in the values appropriate to your individual ThingSpeak Channel. The sample channel can be viewed at : https://thingspeak.com/channels/325023
+In the MATLAB code, the ThingSpeak.com Channel Number ``` thingspeak_channel``` and ThingSpeak.com Write API key ```write_API_key``` need to be defined. Fill in the values appropriate to your individual ThingSpeak Channel. The sample channel can be viewed at : https://thingspeak.com/channels/324021
 
 ```
 %% Define ThingSpeak channel and write API, build web url, and send data to thing speak
