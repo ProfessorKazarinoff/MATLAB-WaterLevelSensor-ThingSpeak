@@ -21,17 +21,8 @@ Our group is going to build a MATLAB code to transfer a user defined operation t
 
 ### Component Connections
 As shown in the pictures below, the circuit that connects the breadboard, the Arduino Red Board, and the water level sensor is a direct current. The usb cable is connected to a computer which will provide power to the circuit.
-![Alt-text](/doc/fritzing_temp_sensor_redboard.png "Alt-title")
-
-### Connected Hardware
-Arduino is connected to the computer via a mini-USB (connector shown at right of
-photo). The temperature sensor is connected to the Arduino through a breadboard that
-incorporates a pull-up resistor to keep input voltage up. Connections as follows: red wire of
-sensor is input, green is signal, black is ground, these are connected to three different rows on
-the breadboard. The red, white and black jumpers connect the breadboard to the Arduino with
-the following ports, 3.3V, Digital-7 and GND (respectively). The resistor is placed between the
-signal wire and input for the Arduino.
-![Alt-text](/doc/temp_sensor1.jpg "Alt-title")
+![Alt-text](/doc/connected_hardware1.jpg "Alt-title")
+![Alt-text](/doc/connected_hardware2.jpg "Alt-title")
 
 ## Arduino Code
 
