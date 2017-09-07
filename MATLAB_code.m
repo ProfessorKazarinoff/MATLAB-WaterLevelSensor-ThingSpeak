@@ -52,10 +52,10 @@ for i=1:user_points
     %% Define ThingSpeak channel and write API, build web url, and send data to thing speak
 
     % create variable containing thing speak channel 
-    thingspeak_channel = '324021';
+    thingspeak_channel = 'XXXXXX';
 
     % create avariable containing write API
-    write_API_key = 'D3B0WR7X31DFN8EW';
+    write_API_key = 'XXXXXXXXXXXXXXXX';
     
     % if statment to control for static/noise from the arduino sensor
     if serial_data >= 0 || serial_data <= 12
