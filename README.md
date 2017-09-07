@@ -29,8 +29,13 @@ The [MATLAB_code.m](MATLAB_code.m) script was run in MATLAB. Ensure the ```COM P
 At the top of the code, the ThingSpeak.com Channel Number ```ThingSpeak_channel``` and ThingSpeak.com Write API key ```Write_API_Key``` need to be defined. Fill in the values appropriate to your individual ThingSpeak Channel. The sample channel can be viewed at : https://thingspeak.com/channels/325023
 
 ```
-ThingSpeak_channel = 'XXXXXX';      % Set ThingSpeak Channel
-Write_API_Key = 'XXXXXXXXXXXXXXXX'; % Set Write_API_Key
+%% Define ThingSpeak channel and write API, build web url, and send data to thing speak
+
+    % create variable containing thing speak channel 
+    thingspeak_channel = 'XXXXXX';
+
+    % create avariable containing write API
+    write_API_key = 'XXXXXXXXXXXXXXXX';
 ```
 
 ## Arduino Code
