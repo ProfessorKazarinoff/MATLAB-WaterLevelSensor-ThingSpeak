@@ -23,16 +23,14 @@ As shown in the pictures below, the circuit that connects the breadboard, the Ar
 ![Alt-text](/doc/connected_hardware1.jpg "Alt-title")
 ![Alt-text](/doc/connected_hardware2.jpg "Alt-title")
 
-## Arduino Code
-
-The [temp_sensor.ino](temp_sensor.ino) sketch was uploaded on the Arduino using the Arduino IDE.
-
 ## MATLAB Code
+The [MATLAB_Code.m](MATLAB_Code.m) script was run in MATLAB. Ensure the ```COM Port``` is set correctly. If errors are returned after running the script a number of times try ```fclose(a); clear(a); delete(a)``` on the commandline
 
-The [temp_sensor.m](temp_sensor.m) script was run in MATLAB.
+## Arduino Code
+The [Arduino_Code.ino](Arduino_Code.ino) sketch was uploaded on the Arduino using the Arduino IDE.
+
 
 ## Results
-
 The result will give the number of data points that the user wants to collect. Once enough data points are gathered, MATLAB will upload the information to the ThingSpeak cloud.
 
 ## Future Work
