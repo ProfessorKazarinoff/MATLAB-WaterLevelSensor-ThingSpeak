@@ -33,19 +33,10 @@ The [temp_sensor.m](temp_sensor.m) script was run in MATLAB.
 
 ## Results
 
-![Alt-text](/doc/results.png "Alt-title")
-
-The plot above is a sample output of our code using the temperature sensor and Arduino
-board. Time is on the x-axis while temperature in degrees Fahrenheit is on the y-axis.
+The result will give the number of data points that the user wants to collect. Once enough data points are gathered, MATLAB will upload the information to the ThingSpeak cloud.
 
 ## Future Work
-This is a great starting point for future work with the hydroponic fish-garden. This
-program could be used to get baseline values for the temperature and use those values for
-further changes to the conditions. If the temperature is too low a program could be written to
-turn on a heater until the water reaches a certain temperature. If the temperature is too high the
-same program could be used to turn off said heater. Long term monitoring could be used to find
-trends that correlated to any number of factors, plant cycle, fish health, plant health, etc. Inconjunction with software from other groups this garden could be almost fully automated and
-controlled remotely via a wi-fi connection.
+Since the data points are uploaded to the cloud for multiple users to monitor the water level of the fish tank, future work could entail working in coordination with the water pump team, to generate one script managing the water flow and thus the water levels. 
 
 ## License
 GNU General Public License v3.0
