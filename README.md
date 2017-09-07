@@ -24,10 +24,10 @@ As shown in the pictures below, the circuit that connects the breadboard, the Ar
 ![Alt-text](/doc/connected_hardware2.jpg "Alt-title")
 
 ## MATLAB Code
-The [MATLAB_Code.m](MATLAB_Code.m) script was run in MATLAB. Ensure the ```COM Port``` is set correctly. If errors are returned after running the script a number of times try ```fclose(a); clear(a); delete(a)``` on the commandline
+The [MATLAB_code.m](MATLAB_code.m) script was run in MATLAB. Ensure the ```COM Port``` is set correctly. If errors are returned after running the script a number of times try ```fclose(a); clear(a); delete(a)``` on the MATLAB command line.
 
 ## Arduino Code
-The [Arduino_Code.ino](Arduino_Code.ino) sketch was uploaded on the Arduino using the Arduino IDE.
+The [Arduino_code.ino](Arduino_code.ino) sketch was uploaded on the Arduino using the Arduino IDE.
 
 
 ## Results
